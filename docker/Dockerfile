@@ -7,4 +7,4 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 RUN composer install --no-interaction
 
-CMD ["vendor/bin/phpunit", "--testdox", "tests/AgendaTest.php"]
+CMD ["vendor/bin/phpunit", "--testdox", "tests"]
